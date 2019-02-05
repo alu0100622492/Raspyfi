@@ -2,3 +2,4 @@ GrovePi
 *.pyc
 *.csv
 dist/
+*.json

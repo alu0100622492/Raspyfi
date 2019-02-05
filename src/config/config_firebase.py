@@ -1,12 +1,13 @@
-import pyrebase
+from pyrebase import pyrebase
 
 
 #FIREBASE----------------------------------------------------
 config = {
-  'apiKey': 'AIzaSyBzGumeyc8y6CnoebtwZhJ3t52lkMFXMuk',
-  'authDomain': 'carsens-9edc7.firebase.com',
-  'databaseURL': 'https://carsens-9edc7.firebaseio.com/',
-  'storageBucket': 'carsens-9edc7.appspot.com'
+  'apiKey': 'AIzaSyCpUNH5reSxyo1fwiBUu1-DnJCTFBAO_e8',
+  'authDomain': 'carsens-80cc6.firebase.com',
+  'databaseURL': 'https://carsens-80cc6.firebaseio.com/',
+  'storageBucket': 'carsens-80cc6.appspot.com',
+  "serviceAccount": "data.json"
 }
 
 firebase = pyrebase.initialize_app(config)
